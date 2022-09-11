@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C39878C28CE9FF700B79A48 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C39878B28CE9FF700B79A48 /* secondViewController.swift */; };
 		0C407F8C28CE87B7002A379E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C407F8B28CE87B7002A379E /* AppDelegate.swift */; };
 		0C407F8E28CE87B7002A379E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C407F8D28CE87B7002A379E /* SceneDelegate.swift */; };
 		0C407F9028CE87B7002A379E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C407F8F28CE87B7002A379E /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C39878B28CE9FF700B79A48 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 		0C407F8828CE87B7002A379E /* HackwichTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackwichTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C407F8B28CE87B7002A379E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C407F8D28CE87B7002A379E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				0C407F8D28CE87B7002A379E /* SceneDelegate.swift */,
 				0C407F8F28CE87B7002A379E /* ViewController.swift */,
 				0C407F9128CE87B7002A379E /* Main.storyboard */,
+				0C39878B28CE9FF700B79A48 /* secondViewController.swift */,
 				0C407F9428CE87B8002A379E /* Assets.xcassets */,
 				0C407F9628CE87B8002A379E /* LaunchScreen.storyboard */,
 				0C407F9928CE87B8002A379E /* Info.plist */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C39878C28CE9FF700B79A48 /* secondViewController.swift in Sources */,
 				0C407F9028CE87B7002A379E /* ViewController.swift in Sources */,
 				0C407F8C28CE87B7002A379E /* AppDelegate.swift in Sources */,
 				0C407F8E28CE87B7002A379E /* SceneDelegate.swift in Sources */,
