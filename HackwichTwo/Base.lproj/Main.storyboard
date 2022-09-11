@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Wt-pz-XG8">
-                                <rect key="frame" x="147" y="541" width="121" height="78"/>
+                                <rect key="frame" x="147" y="103" width="121" height="78"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Press Me">
@@ -29,11 +29,19 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sw2-fr-ufv">
-                                <rect key="frame" x="166" y="665" width="83" height="48"/>
+                                <rect key="frame" x="157" y="210" width="92" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Click HERE!"/>
                                 <connections>
                                     <action selector="clickMeButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hNS-QR-2cv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CBW-mj-KiO">
+                                <rect key="frame" x="141" y="400" width="125" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="Fq3-O6-f4Z" kind="show" id="icS-Pz-eCK"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -44,6 +52,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dqu-gd-Fjg">
+            <objects>
+                <viewController id="Fq3-O6-f4Z" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CzF-oj-OI0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Z94-uQ-MRc"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="S9j-hu-lD9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wdV-Ag-mqb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="783" y="135"/>
         </scene>
     </scenes>
 </document>
