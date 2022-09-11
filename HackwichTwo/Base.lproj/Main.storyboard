@@ -29,9 +29,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sw2-fr-ufv">
-                                <rect key="frame" x="166" y="670" width="83" height="48"/>
+                                <rect key="frame" x="166" y="665" width="83" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Click HERE!"/>
+                                <connections>
+                                    <action selector="clickMeButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hNS-QR-2cv"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
