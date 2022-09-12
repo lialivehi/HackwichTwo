@@ -21,8 +21,13 @@ class secondViewController: UIViewController {
     @IBAction func changeColorButtonPress(_ sender: Any) {
         //when pressed background collor will be blue
         self.view.backgroundColor = UIColor.blue
+        
+        var textColor: UIColor! { UIColor.white }
+        var firtsLabel: UILabel!;var text: String {"Hello World"}
     }
     
+    
+    @IBOutlet weak var firstLabel: UILabel!
     
     
     
