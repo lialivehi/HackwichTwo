@@ -83,7 +83,7 @@
                     <navigationItem key="navigationItem" id="S9j-hu-lD9"/>
                     <connections>
                         <outlet property="firstLabel" destination="Qqv-uQ-R3z" id="MHQ-XN-bYe"/>
-                        <outlet property="firtsLabel" destination="Qqv-uQ-R3z" id="f5T-be-55w"/>
+                        <outlet property="firtsLabel" destination="Qqv-uQ-R3z" id="6JW-NN-ioA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wdV-Ag-mqb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

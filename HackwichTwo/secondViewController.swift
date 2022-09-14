@@ -10,6 +10,17 @@ import UIKit
 
 class secondViewController: UIViewController {
 
+    @IBOutlet weak var firtsLabel: UILabel!
+    
+    
+    var myFirstLabel: String
+    var myFirsvariable = "Welcome"
+  
+    
+   var textColor: UIColor! { UIColor.white }
+   
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,8 +33,7 @@ class secondViewController: UIViewController {
         //when pressed background collor will be blue
         self.view.backgroundColor = UIColor.blue
         
-        var textColor: UIColor! { UIColor.white }
-        var firtsLabel: UILabel!;var text: String {"Hello World"}
+        
     }
     
     
